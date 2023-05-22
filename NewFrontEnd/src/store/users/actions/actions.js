@@ -112,6 +112,8 @@ export const fetchUser = (id) => async(dispatch) => {
         console.error(err.message)
     }
 }
+//upload pic
+
 
 export const createUser = (userData, pictureFile, pictureType) => async(dispatch) => {
     dispatch(newUserStart())
