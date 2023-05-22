@@ -42,7 +42,10 @@ const Profile = () => {
         const newFile = new File([blob], usr.username + fileType, {type: data.type});
         setSelectedFile(newFile)
     }
-    const uploadPic = async(file) => {
+  // pic_upload part
+    
+  
+  const uploadPic = async(file) => {
         await dispatcher(actions.uploadPic(file, usr))
         navigate("/home")
         
