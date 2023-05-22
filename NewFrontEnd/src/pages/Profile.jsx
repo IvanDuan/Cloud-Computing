@@ -28,7 +28,11 @@ const Profile = () => {
 
     const antIcon = <LoadingOutlined style={{ fontSize: 24 }} spin />;
     
-    const selectFile = (data) => {
+   
+    
+    
+    //pic_upload part
+  const selectFile = (data) => {
         if(data.type === 'image/png') {
             setFileType('.png')
         } else if (data.type === 'image/jpeg'){
