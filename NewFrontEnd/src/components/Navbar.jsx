@@ -21,6 +21,10 @@ const Navbar = () => {
   }
 
   return (
+    
+   
+    
+    // profile_pic
     <div className='navbar'>
       <div className='user'>
       <img src= {usr.profile_picture_link} alt="" />
