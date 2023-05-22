@@ -40,6 +40,7 @@ const setUserLogin = (state, action) => updateObject(state, {
 const setUserLogoff = (state, action) => updateObject(state, {
     userLogged: false
 })
+//const upload pic
 
 const uploadPicStart = (state, action) => updateObject(state, {
     loading:true
@@ -53,6 +54,7 @@ const uploadPicSuccess = (state, action) => updateObject(state, {
 const uploadPicFail = (state, action) => updateObject(state, {
     loading:false
 })
+
 
 const users = (state = initialState, action) => {
     switch (action.type) {
