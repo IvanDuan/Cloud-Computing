@@ -8,6 +8,9 @@ export const LOGIN_USER_SUCCESS = 'LOGIN_USER_SUCCESS';
 export const LOGIN_USER_FAIL = 'LOGIN_USER_FAIL';
 export const SET_USER_LOGIN = 'SET_USER_LOGIN';
 export const SET_USER_LOGOFF = 'SET_USER_LOGOFF';
+//upload pic
+
+
 export const UPLOAD_PIC_START = 'UPLOAD_PIC_START';
 export const UPLOAD_PIC_SUCCESS = 'UPLOAD_PIC_SUCCESS';
 export const UPLOAD_PIC_FAIL = 'UPLOAD_PIC_FAIL';
